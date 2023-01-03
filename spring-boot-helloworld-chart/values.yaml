@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: gcr.io/lumen-microservices-migration/hello-world
-  tag: "70"
+  tag: "73"
   pullPolicy: IfNotPresent
 
 deployment:
