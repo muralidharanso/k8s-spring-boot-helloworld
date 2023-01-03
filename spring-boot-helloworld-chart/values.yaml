@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  repository: "spring-boot-helloworld"
+  repository: gcr.io/lumen-microservices-migration/hello-world
   tag: "v1"
   pullPolicy: IfNotPresent
 
