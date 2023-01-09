@@ -1,8 +1,7 @@
 replicaCount: 1
 
 image:
-  repository: us-central1-docker.pkg.dev/lumen-microservices-migration/bmco/images/hello-world
-  tag: "1"
+  repository: us-central1-docker.pkg.dev/lumen-microservices-migration/bmco/images/hello-world:1
   pullPolicy: IfNotPresent
 
 deployment:
