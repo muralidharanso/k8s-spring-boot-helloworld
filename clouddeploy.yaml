@@ -6,12 +6,12 @@ metadata:
 description: Hello World Deployment Pipeline
 serialPipeline:
   stages:
-  - targetId: murali-demo
+  - targetId: dev-demos
 ---
 apiVersion: deploy.cloud.google.com/v1beta1
 kind: Target
 metadata:
-  name: staging
+  name: dev-demos
 description: Staging Environment
 gke:
-  cluster: projects/lumen-microservices-migration/locations/us-central1/clusters/murali-demo
+  cluster: projects/lumen-microservices-migration/locations/us-central1-a/clusters/dev-demos
