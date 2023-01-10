@@ -5,3 +5,5 @@ deploy:
     releases:
     - name: hello-world-demo
       chartPath: spring-boot-helloworld-chart
+      setValueTemplates:
+         image.tag: "{{.IMAGE_TAG}}"
